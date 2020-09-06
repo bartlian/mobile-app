@@ -1,0 +1,5 @@
+@function px2vw($px) {
+	@return $px / 375 * 100vw;
+}
+
+$themeColor: #c4c07a;

@@ -1,0 +1,45 @@
+blockquote,body,dd,dir,dl,fieldset,figure,form,h1,h2,h3,h4,h5,h6,hr,input,legend,menu,ol,optgroup,p,pre,tbody,td,textarea,tfoot,th,thead,ul {
+  margin: 0;
+  padding: 0
+}
+
+ol,ul {
+  list-style-type: none;
+  list-style-image: none
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent
+}
+
+a:active,a:hover,a:visited {
+  outline-width: 0;
+  color: #333;
+}
+
+a:focus {
+  outline: 1px dotted
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-size: 4.2vw;
+  line-height: 1.8
+}
+
+body,button,input,select,textarea {
+  font-family: helvetica neue,arial,hiragino sans gb,stheiti,wenquanyi micro hei,sans-serif;
+  -ms-text-autospace: ideograph-alpha ideograph-numeric ideograph-parenthesis;
+}
